@@ -22,7 +22,7 @@ jobs:
     - name: Build the extension
       run: |
         sudo apt-get update
-        sudo apt-get install -y libgdm-dev
+        sudo apt-get install -y libgbm-dev
         
         jlpm
         jlpm run eslint:check
